@@ -1,0 +1,115 @@
+.header-container {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+body {
+    font-family: 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+nav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+nav li {
+    float: left;
+}
+
+
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+
+.container {
+    padding: 50px;
+    text-align: center;
+}
+
+
+
+section {
+    margin: 20px 0;
+}
+
+
+
+h2 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+
+
+p {
+    color: #555;
+}
+
+
+
+.menu-item {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+
+
+.menu-item h3 {
+    margin-top: 0;
+    color: #555;
+}
+
+
+
+.menu-item p {
+    margin: 5px 0;
+    color: #777;
+}
+
+
+
+.note {
+    font-style: italic;
+    color: #555;
+}
+
+
+.hours ul {
+    list-style-type: disc;
+    padding-left: 50px;
+    margin: 0;
+    color: #555;
+}
+
+
+
+.hours li {
+    margin-bottom: 5px;
+}
