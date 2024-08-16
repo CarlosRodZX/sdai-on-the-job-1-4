@@ -1,6 +1,7 @@
 .header-container {
-    display: flex;
-    justify-content: center;
+    text-align: center;
+    width: 800px;
+    margin: 0 auto;
 }
 
 
@@ -58,10 +59,33 @@ section {
 }
 
 
+.dev-dish-title {
+    color: darkred;
+    font-size: 3em;
+    margin: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 
 h2 {
     margin-bottom: 10px;
     color: #333;
+}
+
+
+#about-us {
+    margin: auto;
+    color: chartreuse;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.wraps-menu {
+    color: darkblue;
+    font-size: 25px;
+    margin: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
 }
 
 
