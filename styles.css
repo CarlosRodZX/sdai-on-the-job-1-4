@@ -80,12 +80,23 @@ h2 {
 }
 
 
+.about-us-title {
+    color: green
+}
+
 .wraps-menu {
     color: darkblue;
     font-size: 25px;
     margin: auto;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
+}
+
+
+.wrap-menu-items {
+    color: darkgreen;
+    font-family:'Courier New', Courier, monospace;
+    margin: auto;
 }
 
 
