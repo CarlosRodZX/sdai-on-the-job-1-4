@@ -81,22 +81,28 @@ h2 {
 
 
 .about-us-title {
-    color: green
+    color: orangered
 }
 
 .wraps-menu {
     color: darkblue;
     font-size: 25px;
-    margin: auto;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 7px 0;
+    font-family: Georgia, 'Times New Roman', Times, serif
 
 }
 
 
-.wrap-menu-items {
-    color: darkgreen;
+.menu-item h3 {
+    margin-top: 0;
+    color: green;
     font-family:'Courier New', Courier, monospace;
-    margin: auto;
+}
+
+
+.menu-item p {
+    margin: 5px 0;
+    color: black;
 }
 
 
@@ -109,7 +115,7 @@ h2 {
 
 
 p {
-    color: #555;
+    color: black;
 }
 
 
@@ -122,17 +128,12 @@ p {
 }
 
 
-
-.menu-item h3 {
-    margin-top: 0;
-    color: #555;
-}
-
-
-
-.menu-item p {
+.dev-favorites-title {
+    
+    color:darkorange;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin: 5px 0;
-    color: #777;
+
 }
 
 
