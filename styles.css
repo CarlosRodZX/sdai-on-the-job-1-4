@@ -10,6 +10,7 @@ body {
     font-family: 'Trebuchet MS', sans-serif;
     margin: 0;
     padding: 0;
+    line-height: 1.7;
 }
 
 
@@ -63,7 +64,7 @@ section {
     color: darkred;
     font-size: 3em;
     margin: auto;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 
@@ -77,17 +78,21 @@ h2 {
     margin: auto;
     color: chartreuse;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 20px 20px 20px 20px;
 }
 
 
 .about-us-title {
-    color: orangered
+    color: orangered;
+    margin: 20px 20px;
+    font-size: 30px;
 }
+
 
 .wraps-menu {
     color: darkblue;
-    font-size: 25px;
-    margin: 7px 0;
+    font-size: 35px;
+    margin: 12px 12px;
     font-family: Georgia, 'Times New Roman', Times, serif
 
 }
@@ -100,6 +105,14 @@ h2 {
 }
 
 
+
+h1, h2, h3 {
+    line-height: 1.2; 
+}
+
+
+
+
 .menu-item p {
     margin: 5px 0;
     color: black;
@@ -108,8 +121,9 @@ h2 {
 
 
 .sides-menu {
-    color: darkcyan
-
+    color: darkcyan;
+    font-size: 39px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 
@@ -142,7 +156,7 @@ p {
 
 .note {
     font-style: italic;
-    color: #555;
+    color:  red;
 }
 
 .location-title {
@@ -151,14 +165,31 @@ p {
     font-size: 30px;
     font-family: monospace;
     margin: 10px 10px;
+    
 }
+
+.address-location {
+    font-weight: bold;
+}
+
+
+.hours-title {
+    color: purple; 
+    font-size: 28px; 
+    font-family: 'Trebuchet MS', sans-serif;
+    margin: 20px 0; 
+}
+
 
 
 .hours ul {
     list-style-type: disc;
-    padding-left: 50px;
     margin: 0;
-    color: #555;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    list-style-position: inside;
+    padding-right: 35px;
 }
 
 
@@ -166,3 +197,23 @@ p {
 .hours li {
     margin-bottom: 5px;
 }
+
+
+
+.follow-us {
+    font-weight: bold;
+}
+
+
+
+.social-media-icons img {
+    width: 40px; /* Set the size of the icons */
+    height: 40px;
+
+    }
+
+
+
+    .social-media-icons a {
+        margin: 0 10px;
+    }
