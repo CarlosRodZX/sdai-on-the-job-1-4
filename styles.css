@@ -132,8 +132,10 @@ p {
     
     color:darkorange;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    margin: 5px 0;
-
+    margin: 10px 14px;
+    margin-bottom: 20px;
+    letter-spacing: 3px;
+    font-size: 29px;
 }
 
 
@@ -141,6 +143,14 @@ p {
 .note {
     font-style: italic;
     color: #555;
+}
+
+.location-title {
+
+    color:dodgerblue;
+    font-size: 30px;
+    font-family: monospace;
+    margin: 10px 10px;
 }
 
 
