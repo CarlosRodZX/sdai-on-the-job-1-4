@@ -206,14 +206,21 @@ p {
 
 
 
+.social-media-icons {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+
 .social-media-icons img {
-    width: 40px; /* Set the size of the icons */
+    width: 40px; 
     height: 40px;
 
     }
 
 
-
     .social-media-icons a {
         margin: 0 10px;
+        display: inline-block
     }
