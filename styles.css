@@ -84,6 +84,27 @@ section {
 
 
 
+
+
+/* Fade In transitions */
+
+
+.fade-in {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.fade-in.visible {
+    opacity: 3;
+}
+
+
+/* End Fade In Transitions */
+
+
+
+
+
 h2 {
     margin-bottom: 10px;
     color: #333;
@@ -105,12 +126,24 @@ h2 {
 }
 
 
+
+.dev-dish-quarterly {
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 49px;
+    padding: 20px 20px;
+    margin: auto;
+    color: rgb(170, 11, 11);
+}
+
+
+
 .wraps-menu {
     color: darkblue;
     font-size: 35px;
     margin: 12px 12px;
-    font-family: Georgia, 'Times New Roman', Times, serif
-
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 7px 20px 13px;
 }
 
 
